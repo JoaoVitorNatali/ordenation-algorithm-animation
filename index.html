@@ -1,49 +1,61 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Sort</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="main.js"></script>
-	<!-- <script type="text/javascript" src="sortsJavascript/sortFunctions.js"></script> -->
-	<script type="text/javascript" src="sortsJavascript/insertionSort.js"></script>
-	<script type="text/javascript" src="sortsJavascript/ShellSort.js"></script>
-	<script type="text/javascript" src="sortsJavascript/bubbleSort.js"></script>
-	<script type="text/javascript" src="sortsJavascript/quickSort.js"></script>
+    <title>Ordenação</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="sortsJavascript/insertionSort.js"></script>
+    <script type="text/javascript" src="sortsJavascript/ShellSort.js"></script>
+    <script type="text/javascript" src="sortsJavascript/bubbleSort.js"></script>
+    <script type="text/javascript" src="sortsJavascript/quickSort.js"></script>
+
+    <!--Fontes-->
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+
 
 </head>
 
-<header>SIMULADOR DE ORDENAÇÃO</header>
+<header>
+
+</header>
 
 <body>
 
-<div id="bloco1">
-	<div class="container"><!-- alinha os botoes -->
-		<div id="inputs">
-			<select  name="opcao">
-			  <option value="1">Largura: 1 pixel</option>
-			  <option value="2">Largura: 3 pixels</option>
-			  <option value="3">Largura: 5 pixels</option>
-			</select>
-		</div>
-		
-		<div id="btnsPrimarios">
-			<button id="botaoEmbaralha" class="btn">Embaralhar</button><br>
-			<button id="botaoSorts" class="btn">Ordenar</button>
+    <div id="bloco1">
+        <div class="header">
+            <h1>Algoritmos de ordenação</h1>
+            <p>Visualizando os algoritmos de ordenação na prática</p>
+        </div>
+        <div class="container">
+            <!-- alinha os botoes -->
+            <div id="inputs">
+                <select name="opcao">
+					<option value="1">Largura: 1 pixel</option>
+					<option value="2">Largura: 3 pixels</option>
+					<option value="3">Largura: 5 pixels</option>
+				</select>
+            </div>
 
-		</div>
-		<div id="sorts"><!-- botoes a esconder -->
-			<button id="botaoInsert" class="btn">Insert Sort</button><br>
-			<button id="botaoShell" class="btn">Shell Sort</button><br>
-			<button id="botaoBubble" class="btn">Bubble Sort</button><br>
-			<button id="botaoQuick" class="btn">Quick Sort</button><br>
-		</div>
-	</div><!-- fechamento container -->
+            <div id="btnsPrimarios">
+                <div><button id="botaoEmbaralha" class="btn">Embaralhar</button></div>
+                <div><button id="botaoSorts" class="btn">Ordenar</button></div>
+            </div>
+            <div id="sorts">
+                <!-- botoes a esconder -->
+                <div><button id="botaoInsert" class="btn">Insert Sort</button><br></div>
+                <div><button id="botaoShell" class="btn">Shell Sort</button><br></div>
+                <div><button id="botaoBubble" class="btn">Bubble Sort</button><br></div>
+                <div><button id="botaoQuick" class="btn">Quick Sort</button><br></div>
+            </div>
+        </div>
+        <!-- fechamento container -->
 
-	<div id="ladocanvas">
-		<br>
-		<canvas id="cnv"></canvas>
-	</div>
-</div><!-- bloco1 -->
+        <div id="ladocanvas">
+            <canvas id="cnv"></canvas>
+        </div>
+    </div>
+    <!-- bloco1 -->
 
 </body>
 
