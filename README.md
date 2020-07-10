@@ -7,7 +7,6 @@ Algoritimo para representar por meio de uma animação, construída em forma de 
   <li>Shell Sort</li>
   <li>Quick Sort</li>
 </ul>
-<br>
 
 # Site Preview
 
