@@ -1,6 +1,6 @@
 # ordenation-algorithm-animation
 
-Algoritimo para representar por meio de uma animação, construída em forma de página da web, a ordenação de vetores usando os algorítimos
+Algoritimo para representar por meio de uma animação, construída em forma de página da web, a ordenação de vetores usando os algorítimos:
 <ul>
   <li>Insert Sort</li>
   <li>Bubble Sort</li>
