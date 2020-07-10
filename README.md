@@ -1,4 +1,4 @@
-# ordenation-algorithm-animation
+# Animação com Algorítimos de Ordenação
 
 Algoritimo para representar por meio de uma animação, construída em forma de página da web, a ordenação de vetores usando os algorítimos:
 <ul>
